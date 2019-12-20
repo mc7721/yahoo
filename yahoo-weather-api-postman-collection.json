@@ -1,0 +1,51 @@
+{
+    "id": "4c12b73ed2e0cb886634e4d5c8cea874",
+    "name": "Yahoo Weather API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "a5b3fb3f5aebfb9d3f72aa85ec7675f4",
+            "name": "",
+            "url": "httpweather.yahooapis.com\/\/forecastrss",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "u",
+                    "description": "Units for temperature (case sensitive). f: Fahrenheit, c: Celsius.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "w",
+                    "description": "The location for the weather forecast as a WOEID, example is Palo Alto, CA.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4c12b73ed2e0cb886634e4d5c8cea874",
+            "rawModeData": ""
+        }
+    ]
+}
