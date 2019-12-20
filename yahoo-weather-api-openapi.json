@@ -1,0 +1,37 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Yahoo Weather API",
+        "description": "Get up-to-date weather information for any location, including 5-day forecast, wind, atmosphere, astronomy conditions, and more. You can lookup weather by woeid, city name or lat\/long.",
+        "termsOfService": "https:\/\/info.yahoo.com\/legal\/us\/yahoo\/api\/api-2140.html"
+    },
+    "servers": [
+        "httpweather.yahooapis.com\/"
+    ],
+    "paths": {
+        "\/forecastrss": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "u",
+                        "in": "query",
+                        "description": "Units for temperature (case sensitive). f: Fahrenheit, c: Celsius."
+                    },
+                    {
+                        "name": "w",
+                        "in": "query",
+                        "description": "The location for the weather forecast as a WOEID, example is Palo Alto, CA."
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
