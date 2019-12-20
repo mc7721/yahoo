@@ -1,0 +1,131 @@
+{
+    "name": "Yahoo",
+    "description": "News, email and search are just the beginning. Discover more every day. Find your yodel.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/201-yahoo.jpg",
+    "tags": [
+        "general data",
+        "have api",
+        "locations",
+        "photos",
+        "relative data",
+        "search",
+        "service api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/yahoo\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Yahoo Weather API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/201-yahoo.jpg",
+            "humanURL": "http:\/\/www.yahoo.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/yahoo-weather-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/yahoo-weather-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Yahoo Weather",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/201-yahoo.jpg",
+            "humanURL": "http:\/\/www.yahoo.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/yahoo-weather.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/yahoo-weather-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Website",
+            "url": "http:\/\/www.yahoo.com"
+        },
+        {
+            "type": "Advertising",
+            "url": "https:\/\/developer.yahoo.com\/everything.html#groupAdvertise"
+        },
+        {
+            "type": "Application Management",
+            "url": "https:\/\/developer.apps.yahoo.com\/"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/yahoodevelopers.tumblr.com\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/yahoodevelopers.tumblr.com\/rss"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/yahoo"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/yahoo"
+        },
+        {
+            "type": "Forums",
+            "url": "https:\/\/developer.yahoo.com\/forums\/"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/yahoo"
+        },
+        {
+            "type": "Jobs",
+            "url": "http:\/\/yhoo.it\/1iLIFlr"
+        },
+        {
+            "type": "Monetization",
+            "url": "https:\/\/developer.yahoo.com\/everything.html#groupEarn"
+        },
+        {
+            "type": "Privacy",
+            "url": "https:\/\/info.yahoo.com\/privacy\/us\/yahoo\/devel\/details.html"
+        },
+        {
+            "type": "Registration",
+            "url": "https:\/\/login.yahoo.com\/config\/login?.done=https:\/\/developer.yahoo.com\/"
+        },
+        {
+            "type": "Terms of Service",
+            "url": "https:\/\/info.yahoo.com\/legal\/us\/yahoo\/api\/api-2140.html"
+        },
+        {
+            "type": "Transparency Report",
+            "url": "https:\/\/transparency.yahoo.com\/"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/Yahoo"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/developer.yahoo.com\/"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/tumblr.com"
+        }
+    ]
+}
