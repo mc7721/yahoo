@@ -1,0 +1,37 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Yahoo Weather",
+        "description": "Access up-to-date weather information for your location, including condition codes.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsweather.yahooapis.com\/"
+    ],
+    "paths": {
+        "\/forecastrss": {
+            "get": {
+                "summary": "",
+                "description": "Retrieves weather information for a location.",
+                "operationId": "GetWeatherGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "w",
+                        "in": "query",
+                        "description": "The location for the weather forecast as a WOEID, example is Palo Alto, CA."
+                    },
+                    {
+                        "name": "u",
+                        "in": "query",
+                        "description": "Units for temperature (case sensitive). f: Fahrenheit, c: Celsius."
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
