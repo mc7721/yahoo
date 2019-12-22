@@ -1,5 +1,5 @@
 {
-    "id": "2585c37c6c56b398d67d1505907e6e9e",
+    "id": "e7e6611d298184525d4de59896758eaf",
     "name": "Yahoo Weather",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "b2895f1d71e66fa33b795742e1203f45",
+            "id": "c8cd47a10fa8b068ecae3cfa8d94c71e",
             "name": "",
             "url": "httpsweather.yahooapis.com\/\/forecastrss",
             "description": "Retrieves weather information for a location.",
@@ -44,7 +44,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2585c37c6c56b398d67d1505907e6e9e",
+            "collectionId": "e7e6611d298184525d4de59896758eaf",
             "rawModeData": ""
         }
     ]
