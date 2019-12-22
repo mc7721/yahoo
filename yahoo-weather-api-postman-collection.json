@@ -1,5 +1,5 @@
 {
-    "id": "4c12b73ed2e0cb886634e4d5c8cea874",
+    "id": "a1dd76bcfaca0bd772cf922d18eeac89",
     "name": "Yahoo Weather API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "a5b3fb3f5aebfb9d3f72aa85ec7675f4",
+            "id": "df36b4f8f36b06eeb7792f524b4a50e8",
             "name": "",
             "url": "httpweather.yahooapis.com\/\/forecastrss",
             "description": "",
@@ -44,7 +44,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "4c12b73ed2e0cb886634e4d5c8cea874",
+            "collectionId": "a1dd76bcfaca0bd772cf922d18eeac89",
             "rawModeData": ""
         }
     ]
